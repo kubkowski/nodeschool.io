@@ -1,0 +1,168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'makemehapi' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'makemehapi', null ]
+6 verbose cache add name=undefined spec="makemehapi" args=["makemehapi",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'makemehapi',
+7 verbose parsed url   path: 'makemehapi',
+7 verbose parsed url   href: 'makemehapi' }
+8 silly lockFile a93ece4f-makemehapi makemehapi
+9 verbose lock makemehapi /home/kubkowski/.npm/a93ece4f-makemehapi.lock
+10 silly lockFile a93ece4f-makemehapi makemehapi
+11 silly lockFile a93ece4f-makemehapi makemehapi
+12 verbose addNamed [ 'makemehapi', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 576cd9da-makemehapi makemehapi@
+15 verbose lock makemehapi@ /home/kubkowski/.npm/576cd9da-makemehapi.lock
+16 silly addNameRange { name: 'makemehapi', range: '*', hasData: false }
+17 verbose request where is /makemehapi
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id f00ac55bd55caf81
+20 verbose url raw /makemehapi
+21 verbose url resolving [ 'https://registry.npmjs.org/', './makemehapi' ]
+22 verbose url resolved https://registry.npmjs.org/makemehapi
+23 verbose request where is https://registry.npmjs.org/makemehapi
+24 info trying registry request attempt 1 at 15:30:29
+25 http GET https://registry.npmjs.org/makemehapi
+26 http 200 https://registry.npmjs.org/makemehapi
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Mon, 01 Dec 2014 14:30:30 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"EILURLCZHHKF56S5CK8CUJYM5"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '23057',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-fra1234-FRA',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1417444230.119881,VS0,VE340',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'makemehapi', range: '*', hasData: true }
+29 silly addNameRange versions [ 'makemehapi',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6' ] ]
+30 verbose addNamed [ 'makemehapi', '0.2.6' ]
+31 verbose addNamed [ '0.2.6', '0.2.6' ]
+32 silly lockFile 4bcec93a-makemehapi-0-2-6 makemehapi@0.2.6
+33 verbose lock makemehapi@0.2.6 /home/kubkowski/.npm/4bcec93a-makemehapi-0-2-6.lock
+34 silly lockFile 987a0806--makemehapi-makemehapi-0-2-6-tgz https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+35 verbose lock https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz /home/kubkowski/.npm/987a0806--makemehapi-makemehapi-0-2-6-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz',
+36 verbose addRemoteTarball   'f0e6d78cc47cdabfd989e2d10b0c0afb78f754d8' ]
+37 info retry fetch attempt 1 at 15:30:30
+38 verbose fetch to= /tmp/npm-5442-WllaTCp0/registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+39 http GET https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+40 http 200 https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+41 silly lockFile 987a0806--makemehapi-makemehapi-0-2-6-tgz https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+42 silly lockFile 987a0806--makemehapi-makemehapi-0-2-6-tgz https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz
+43 silly lockFile 4bcec93a-makemehapi-0-2-6 makemehapi@0.2.6
+44 silly lockFile 4bcec93a-makemehapi-0-2-6 makemehapi@0.2.6
+45 silly lockFile 576cd9da-makemehapi makemehapi@
+46 silly lockFile 576cd9da-makemehapi makemehapi@
+47 silly resolved [ { name: 'makemehapi',
+47 silly resolved     version: '0.2.6',
+47 silly resolved     repository: { type: 'git', url: 'git://github.com/hapijs/makemehapi' },
+47 silly resolved     licenses: [ [Object] ],
+47 silly resolved     bin: { makemehapi: './makemehapi.js' },
+47 silly resolved     engines: { node: '>0.10.x' },
+47 silly resolved     description: 'Self guided workshops to teach you about hapi.',
+47 silly resolved     scripts: { start: 'node makemehapi.js' },
+47 silly resolved     dependencies:
+47 silly resolved      { bl: '^0.8.0',
+47 silly resolved        'colors-tmpl': '0.1.0',
+47 silly resolved        'form-data': '^0.1.4',
+47 silly resolved        handlebars: '2.x.x',
+47 silly resolved        hapi: '6.x.x',
+47 silly resolved        hyperquest: '0.1.x',
+47 silly resolved        joi: '4.x.x',
+47 silly resolved        'rot13-stream': '0.0.1',
+47 silly resolved        through2: '^0.4.1',
+47 silly resolved        workshopper: '^1.0.0-alpha07',
+47 silly resolved        'workshopper-boilerplate': '0.0.1',
+47 silly resolved        'workshopper-exercise': '0.2.x',
+47 silly resolved        'workshopper-wrappedexec': '0.1.x' },
+47 silly resolved     peerDependencies: {},
+47 silly resolved     keywords: [ 'hapijs', 'hapi' ],
+47 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+47 silly resolved     gitHead: '607181957ede33c33d049e228fb21b634d655549',
+47 silly resolved     bugs: { url: 'https://github.com/hapijs/makemehapi/issues' },
+47 silly resolved     homepage: 'https://github.com/hapijs/makemehapi',
+47 silly resolved     _id: 'makemehapi@0.2.6',
+47 silly resolved     _shasum: 'f0e6d78cc47cdabfd989e2d10b0c0afb78f754d8',
+47 silly resolved     _from: 'makemehapi@',
+47 silly resolved     _npmVersion: '2.1.2',
+47 silly resolved     _nodeVersion: '0.10.32',
+47 silly resolved     _npmUser: { name: 'linclark', email: 'lin.w.clark@gmail.com' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: 'f0e6d78cc47cdabfd989e2d10b0c0afb78f754d8',
+47 silly resolved        tarball: 'http://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/makemehapi/-/makemehapi-0.2.6.tgz' } ]
+48 info install makemehapi@0.2.6 into /usr/lib
+49 info installOne makemehapi@0.2.6
+50 warn engine makemehapi@0.2.6: wanted: {"node":">0.10.x"} (current: {"node":"0.10.33","npm":"1.4.28"})
+51 verbose lib/node_modules/makemehapi unbuild
+52 verbose tar unpack /home/kubkowski/.npm/makemehapi/0.2.6/package.tgz
+53 silly lockFile 5047bb22--usr-lib-node-modules-makemehapi tar:///usr/lib/node_modules/makemehapi
+54 verbose lock tar:///usr/lib/node_modules/makemehapi /home/kubkowski/.npm/5047bb22--usr-lib-node-modules-makemehapi.lock
+55 silly lockFile 08273e4e-npm-makemehapi-0-2-6-package-tgz tar:///home/kubkowski/.npm/makemehapi/0.2.6/package.tgz
+56 verbose lock tar:///home/kubkowski/.npm/makemehapi/0.2.6/package.tgz /home/kubkowski/.npm/08273e4e-npm-makemehapi-0-2-6-package-tgz.lock
+57 silly gunzTarPerm modes [ '775', '664' ]
+58 error Error: EACCES, mkdir '/usr/lib/node_modules/makemehapi'
+58 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/makemehapi']
+58 error   errno: 3,
+58 error   code: 'EACCES',
+58 error   path: '/usr/lib/node_modules/makemehapi',
+58 error   fstream_type: 'Directory',
+58 error   fstream_path: '/usr/lib/node_modules/makemehapi',
+58 error   fstream_class: 'DirWriter',
+58 error   fstream_stack:
+58 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+58 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+58 error      'Object.oncomplete (fs.js:107:15)' ] }
+59 error Please try running this command again as root/Administrator.
+60 error System Linux 3.13.0-40-generic
+61 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "makemehapi"
+62 error cwd /var/www/workspace/nodeschool.io/hapi
+63 error node -v v0.10.33
+64 error npm -v 1.4.28
+65 error path /usr/lib/node_modules/makemehapi
+66 error fstream_path /usr/lib/node_modules/makemehapi
+67 error fstream_type Directory
+68 error fstream_class DirWriter
+69 error code EACCES
+70 error errno 3
+71 error stack Error: EACCES, mkdir '/usr/lib/node_modules/makemehapi'
+72 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+72 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+72 error fstream_stack Object.oncomplete (fs.js:107:15)
+73 verbose exit [ 3, true ]
